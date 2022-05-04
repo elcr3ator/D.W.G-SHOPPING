@@ -181,6 +181,7 @@ namespace D.W.G_SHOPING.UserControls
                         uint num = BitConverter.ToUInt32(uintBuffer, 0);
                         res.Append(valid[(int)(num % (uint)valid.Length)]);
                     }
+
                 }
 
                 return res.ToString();
